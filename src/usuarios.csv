@@ -49,3 +49,4 @@ id,nombres,apellidos,direccion,correo_electronico,dni,edad,fecha_creacion,telefo
 49,Christos,Biasioli,813 Hagan Avenue,cbiasioli1c@princeton.edu,38625226711,29,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),649-200-5492
 50,Feliks,Farrall,36557 Lake View Drive,ffarrall1d@macromedia.com,29748740271,51,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),132-430-0540
 51,Joseph,Yagual,Av. 10 y Luis R,jostyace@gmail.com,2400011595,32,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),098-245-1264
+52,Lucas,Perez,Av 20,lucasperez@gmail.com,25224456665,25,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),098-245-1264

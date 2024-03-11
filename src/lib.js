@@ -76,7 +76,6 @@ async function validar (datos, res) {
   let saltados = 0
   let enviados = 0
   let conErrores = 0
-  console.log(encabezados)
   if ((encabezados.length === 9) & (encabezados == 'id,nombres,apellidos,direccion,correo_electronico,dni,edad,fecha_creacion,telefono')) {
     const conHeader = datos.split('\n')
     const datosFilas = conHeader.slice(1)
@@ -125,7 +124,6 @@ async function validar (datos, res) {
       console.log('Guardado Correctamente en la Base de Datos')
       enviados++
     }
-    validEmail('jostyace@gmail.com')
     manejarOk(
       res, 'Se ha Importado el Archivo CSV (Enviados: ' + enviados + ' - Con Errores: ' + conErrores + ' - Saltados: ' + saltados + ')'
     )
@@ -196,17 +194,6 @@ export async function manejarOk (res, message) {
 function validarFormatoCorreo (correo) {
   const regexCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
   return regexCorreo.test(correo)
-}
-
-function validEmail (correo) {
-  const splitAlt = correo.split('@')
-  console.log(splitAlt)
-  const hasAlt = splitAlt.length === 2
-  console.log(hasAlt)
-  const splitDot = splitAlt[1].split('.')
-  console.log(splitDot)
-  const hasDot = splitDot.length === 2
-  console.log(hasDot)
 }
 
 function isString (variable) {
