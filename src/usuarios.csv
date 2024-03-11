@@ -1,4 +1,5 @@
 id,nombres,apellidos,direccion,correo_electronico,dni,edad,fecha_creacion,telefono
+1,Natalya,Frere,0 Prairie Rose Drive,nfrerew@pbs.org,10638174358,21,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),117-446-4367
 2,Leshia,MacKeogh,7 Melby Road,lmackeogh1@google.com.au,72587416385,51,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),753-244-6440
 3,Shantee,Ayling,7 Merry Terrace,sayling2@gizmodo.com,22912003417,31,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),437-686-2885
 4,Darnall,Benkin,87 Mariners Cove Place,dbenkin3@adobe.com,13213485120,55,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),313-177-4947
@@ -30,7 +31,6 @@ id,nombres,apellidos,direccion,correo_electronico,dni,edad,fecha_creacion,telefo
 30,Timmy,Draisey,657 Green Ridge Place,tdraiseyt@google.ca,2424820560,28,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),116-241-9725
 31,Brandy,Langton,73 La Follette Trail,blangtonu@digg.com,42202978266,25,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),527-264-7753
 32,Brande,Murtagh,7 Sullivan Hill,bmurtaghv@hugedomains.com,75400831346,27,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),979-706-7455
-33,Natalya,Frere,0 Prairie Rose Drive,nfrerew@pbs.org,10638174358,21,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),117-446-4367
 34,Meggi,Clampe,04 Swallow Parkway,mclampex@usa.gov,36793536199,36,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),523-906-6084
 35,Ivette,Aggott,0 Bowman Parkway,iaggotty@sitemeter.com,5077476812,50,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),186-738-6776
 36,Puff,Enright,29 Tony Street,penrightz@ox.ac.uk,3943295600,30,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),541-773-5863
@@ -48,5 +48,3 @@ id,nombres,apellidos,direccion,correo_electronico,dni,edad,fecha_creacion,telefo
 48,Chantalle,Thomann,627 Waubesa Street,cthomann1b@dion.ne.jp,6544474611,52,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),644-302-1406
 49,Christos,Biasioli,813 Hagan Avenue,cbiasioli1c@princeton.edu,38625226711,29,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),649-200-5492
 50,Feliks,Farrall,36557 Lake View Drive,ffarrall1d@macromedia.com,29748740271,51,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),132-430-0540
-51,Joseph,Yagual,Av. 10 y Luis R,jostyace@gmail.com,2400011595,32,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),098-245-1264
-52,Lucas,Perez,Av 20,lucasperez@gmail.com,25224456665,25,Thu Nov 30 1899 00:00:00 GMT-0514 (hora de Ecuador),098-245-1264

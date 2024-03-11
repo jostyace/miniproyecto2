@@ -73,11 +73,12 @@ async function jsonToCsv (result, res) {
 
 async function validar (datos, res) {
   const encabezados = datos.split('\n')[0].split(',')
+  const encabezadoString = encabezados.join(',')
   let saltados = 0
   let enviados = 0
   let conErrores = 0
-  if ((encabezados.length === 9) & (encabezados == 'id,nombres,apellidos,direccion,correo_electronico,dni,edad,fecha_creacion,telefono')) {
-    const conHeader = datos.split('\n')
+  if ((encabezados.length === 9) & (encabezadoString === 'id,nombres,apellidos,direccion,correo_electronico,dni,edad,fecha_creacion,telefono')) {
+    console.log(encabezados); const conHeader = datos.split('\n')
     const datosFilas = conHeader.slice(1)
     for (const data of datosFilas) {
       const d = data.split(',')
